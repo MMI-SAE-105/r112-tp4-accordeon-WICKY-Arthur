@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : WICKY
+- prénom : Arthur
+- URL Netlify : https://luxury-marshmallow-03e245.netlify.app
 
 # Travail
 
