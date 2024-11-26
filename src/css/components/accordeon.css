@@ -1,3 +1,30 @@
 /**
 * Accordeon
 */
+.accordeon {
+    display: flex;
+}
+
+details {
+    width: 120px;
+    position: relative;
+}
+
+details>div {
+    padding-left: 110px;
+    width: 170px;
+}
+
+details>summary {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+details[open] {
+    width: 300px;
+    display: flex;
+    overflow: hidden;
+    transition: width 2s;
+}
